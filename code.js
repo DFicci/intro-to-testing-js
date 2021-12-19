@@ -27,16 +27,23 @@ function isEven (isAnEvenNumber){
 }
 //this function will only allow vowels
 function isVowel (isItVowel){
-    switch (isItVowel){
+    let vowel
+    if (typeof isItVowel === 'string'){
+        vowel = isItVowel.toLowerCase()
+    }
+
+    switch (vowel){
         case "a":
-            return true;
+            return true
         case "e":
-            return true;
+            return true
         case "i":
-            return true;
+            return true
         case "o":
-            return true;
+            return true
         case "u":
-            return true;
+            return true
+        default:
+            return false
     }
 }

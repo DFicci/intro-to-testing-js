@@ -88,4 +88,16 @@ describe('isVowel', function (){
     it('should should be described as a function', function () {
         expect(typeof isVowel).toBe('function')
     });
+    it('"a" should return true', function () {
+        expect(isVowel("a")).toBe(true)
+    });
+    it('should return false for anything not a vowel such as "y"', function () {
+        expect(isVowel("y")).toBe(false)
+    });
+    it('should return a number as false', function () {
+        expect(isVowel(4)).toBe(false)
+    });
+    it('should return true for a capital "A"', function () {
+        expect(isVowel("A")).toBe(true)
+    });
 })
