@@ -26,19 +26,17 @@ function isEven (isAnEvenNumber){
 
 }
 //this function will only allow vowels
-// function isVowel (isItVowel){
-//     switch (isItVowel){
-//         case "a":
-//             return true;
-//         case "e":
-//             return true;
-//         case "i":
-//             return true;
-//         case "o":
-//             return true;
-//         case "u":
-//             return true;
-//     } else {
-//         return false
-//     }
-// }
+function isVowel (isItVowel){
+    switch (isItVowel){
+        case "a":
+            return true;
+        case "e":
+            return true;
+        case "i":
+            return true;
+        case "o":
+            return true;
+        case "u":
+            return true;
+    }
+}

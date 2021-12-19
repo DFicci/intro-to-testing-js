@@ -84,3 +84,8 @@ describe('isEven', function (){
         expect(isEven(Infinity)).toBe(false)
     });
 });
+describe('isVowel', function (){
+    it('should should be described as a function', function () {
+        expect(typeof isVowel).toBe('function')
+    });
+})
